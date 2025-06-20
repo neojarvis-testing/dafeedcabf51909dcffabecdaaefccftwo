@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: utils.JunitTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.133 s <<< FAILURE! - in utils.JunitTest
+utils.JunitTest.testgetElementsByXPath_Parameter  Time elapsed: 0.087 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method 'getElementsByXPath' not found in WebDriverHelper class: utils.WebDriverHelper.getElementsByXPath()
+	at utils.JunitTest.testgetElementsByXPath_Parameter(JunitTest.java:85)
+
+utils.JunitTest.testgetElementsByXPathFunctionality  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method 'getElementsByXPath' not found in WebDriverHelper class: utils.WebDriverHelper.getElementsByXPath()
+	at utils.JunitTest.testgetElementsByXPathFunctionality(JunitTest.java:50)
+
+utils.JunitTest.testVerifyTitleExistsInPagesPackage  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: No Java files found in Pages directory at: /home/coder/project/workspace/Project/src/test/java/pages
+	at utils.JunitTest.testVerifyTitleExistsInPagesPackage(JunitTest.java:202)
+
+utils.JunitTest.testgetElementsByXPath_returnType  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method 'getElementsByXPath' not found in WebDriverHelper class: utils.WebDriverHelper.getElementsByXPath()
+	at utils.JunitTest.testgetElementsByXPath_returnType(JunitTest.java:67)
+
+utils.JunitTest.testHandleDropdownWithSelect  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: No Java files found in Pages directory at: /home/coder/project/workspace/Project/src/test/java/pages
+	at utils.JunitTest.testHandleDropdownWithSelect(JunitTest.java:108)
+
